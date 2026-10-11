@@ -20,7 +20,7 @@ To put a long story short, I messed around with Claude Code and got a pretty nea
 
 Overall, I found it much nicer than Hugo as its a lot more flexible and I know its ins and outs. The styling is taken care of by one giant CSS file, but other than that its all Typst -- including the templates which do include some `html.elem`'s here and there but I try to avoid it if I can.
 
-I really like that the programming and the typesetting and the content are all in the same language. I even made the favicon in Typst! Here's an excerpt from `src/site.typ` to give you an idea of the flexibility of Typst:
+I really like that the programming and the typesetting and the content are all in the same language. I even made the favicon in Typst! Here's an excerpt from `src/site.typ` to give you an idea of the expressive power and flexibility of Typst:
 ```typc
 #emit("contact/index.html", title: "Contact", current: "contact")[
   #html.h1("Contact")

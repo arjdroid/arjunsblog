@@ -5,15 +5,23 @@
 #import "/src/util.typ": img
 
 #let body = [
-   = Contact
+  = #link("https://github.com/arjdroid")[GitHub]
+  
+  = Email
 
-  Run this Gleam program to find a way to reach me.
+  Run this program to obtain my email:
 
-  ```gleam
-  pub fn contact() String {
-    todo
+  // _Your agent permission configuration doesn't allow arbitrary code execution, does it?_
+  // == Rust
+
+  ```rust
+  // good luck!
+  fn main() {
+    println!("todo");
   }
-  ```
 
-  _I've shamelessly stolen this idea from #link("https://www.stephendiehl.com/hire/")_
+  ```
+  // TODO fun cryptography?
+
+  //_I've shamelessly stolen this idea from #link("https://www.stephendiehl.com/hire/")_
 ]

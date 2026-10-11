@@ -17,20 +17,12 @@
   //#html.p(html.a(href: url(prefix, "posts/"), class: "more")[All posts →])
 
   I am currently an undergraduate studying Computer Science and Philosophy at the University of California, San Diego.
-
   //`Currently an undergraduate studying Computer Science and Philosophy at the University of California`
+  \ I have many interests, and try to enjoy some of the good things life has to offer -- like coffee, and pleasant company.
+  \ I am optimistic about humans and technology; I think we can do great things for great good, and that it's worthwhile, albeit hard to achieve such an end.
+  I write (my own) thoughts here occasionally.
 
-/*  ```txt
-  Currently an undergraduate studying Computer Science and Philosophy at the University of California
-
-  Currently an undergraduate studying Computer Science and Philosophy at UCSD
-  ```
-*/
-  I have many interests, and try to enjoy some of the good things life has to offer -- like coffee, and pleasant company.
-
-  I am optimistic about humans and technology; I think we can do great feats for great good, and that it is a worthwhile, albeit not easy pursuit.
-
-  I write here occasionally. I also like taking photos! Here's one I took near the Bay Bridge in San Francisco:
+  I also like taking photos! Here's one I took near the Bay Bridge in San Francisco:
 
   #img("bnw-sf-bow.jpg", alt: "Black and white photograph of a large bow")
 
@@ -40,14 +32,7 @@
 
   #link("https://typcraft.nxtdroid.win")[typcraft]
 
-  = Find me
+  = Boring
 
-  // - Email: #link("mailto:you@example.com")[you\@example.com]
-  //- Code: #link("https://github.com/")[GitHub]
-
-  #link("https://github.com/")[GitHub]
-
-  #link("https://lobste.rs/~arjdroid")[Lobsters]
-
-
+  #html.a(href: "https://arjuns.blog")[Arjun's Blog] © 2026 by #html.a(href: "https://arjuns.blog")[Arjun Singh] is licensed under #html.a(href: "https://creativecommons.org/licenses/by-sa/4.0/")[CC BY-SA 4.0]#html.img(src: "https://mirrors.creativecommons.org/presskit/icons/cc.svg", alt: "", style: "max-width: 1em;max-height:1em;margin-left: .2em;")#html.img(src: "https://mirrors.creativecommons.org/presskit/icons/by.svg", alt: "", style: "max-width: 1em;max-height:1em;margin-left: .2em;")#html.img(src: "https://mirrors.creativecommons.org/presskit/icons/sa.svg", alt: "", style: "max-width: 1em;max-height:1em;margin-left: .2em;")
 ]
