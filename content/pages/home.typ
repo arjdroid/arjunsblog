@@ -5,7 +5,7 @@
 #import "/src/util.typ": site, url
 #import "/src/post.typ": post-card
 
-#let images = ("DSC06483-bnw-dutch-bow.jpg",)
+#let images = ("bnw-sf-bow.jpg",)
 
 #let body(prefix, recent) = [
   //#html.h1(site.title)
@@ -26,13 +26,13 @@
   Currently an undergraduate studying Computer Science and Philosophy at UCSD
   ```
 */
-  I have many interests, and I try to enjoy a lot of the good things life has to offer -- like coffee, and pleasant company.
+  I have many interests, and try to enjoy some of the good things life has to offer -- like coffee, and pleasant company.
 
   I am optimistic about humans and technology; I think we can do great feats for great good, and that it is a worthwhile, albeit not easy pursuit.
 
   I write here occasionally. I also like taking photos! Here's one I took near the Bay Bridge in San Francisco:
 
-  #img("DSC06483-bnw-dutch-bow.jpg", alt: "Black and white photograph of a large bow")
+  #img("bnw-sf-bow.jpg", alt: "Black and white photograph of a large bow")
 
   //This site is built from Typst sources — the whole thing, including this  sentence, is compiled by `typst compile --format bundle`.
 
@@ -49,5 +49,5 @@
 
   #link("https://lobste.rs/~arjdroid")[Lobsters]
 
-  
+
 ]
