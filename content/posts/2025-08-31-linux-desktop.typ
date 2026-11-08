@@ -5,7 +5,7 @@
   title: "The Year of the Linux Desktop",
   date: datetime(year: 2025, month: 8, day: 31),
   tags: ("linux", "life"),
-  summary: "Reflecting on my primary computing platform this summer",
+  summary: "Reflections on my primary computing platform this summer.",
   images: ("linux-desktop.jpg",),
   body: [
 #img("linux-desktop.jpg", alt: "Laptop in cafe")

@@ -103,7 +103,7 @@
   title: "The Right to Data Portability in Health Trackers",
   date: datetime(year: 2026, month: 6, day: 12),
   tags: ("tech", "privacy"),
-  summary: "Pretty obvious if you think about it.",
+  summary: "Give me any data you have about me, pretty please.",
   body: [
 //Arjun Singh, University of California, San Diego
 #quote(block:true)[I turned this in (mostly similarly) for PHIL 174: Data Ethics in Spring 2026.]
@@ -162,6 +162,6 @@ There might not be many direct costs to users with a right to data portability. 
 
 = Conclusion
 
-Currently, it is unclear to what extent restrictions on data portability are in place in industry. Nonetheless, the possibility for adverse moral outcomes without data portability in the healthcare context seems to warrant pre-emptive provisions for such a right.
+Currently, it is unclear to what extent restrictions on data portability are in place in industry. Nonetheless, the possibility for adverse moral outcomes without data portability in the healthcare context seems to warrant preemptive provisions for such a right.
 ]
 )

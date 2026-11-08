@@ -5,7 +5,7 @@
   title: "Static Site Generation with Typst",
   date: datetime(year: 2026, month: 9, day: 21),
   tags: ("programming", "typst"),
-  summary: "They said it couldn't be done",
+  summary: "Surprisingly viable.",
   //images: ("procrastination.jpg",),
   body: [
 //#img("procrastination.jpg", alt: "Laptop in restaurant")
