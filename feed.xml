@@ -6,20 +6,27 @@
   <link href="https://arjuns.blog/"/>
   <id>https://arjuns.blog/</id>
   <author><name>Arjun Singh</name></author>
-  <updated>2026-09-21T00:00:00Z</updated>
+  <updated>2026-11-05T00:00:00Z</updated>
+  <entry>
+    <title>Vagueries and Auguries</title>
+    <link href="https://arjuns.blog/posts/vague-ppl/"/>
+    <id>https://arjuns.blog/posts/vague-ppl/</id>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <summary>Performative question askers take up precious time and space.</summary>
+  </entry>
   <entry>
     <title>Static Site Generation with Typst</title>
     <link href="https://arjuns.blog/posts/typst-sitegen/"/>
     <id>https://arjuns.blog/posts/typst-sitegen/</id>
     <updated>2026-09-21T00:00:00Z</updated>
-    <summary>They said it couldn't be done</summary>
+    <summary>Surprisingly viable.</summary>
   </entry>
   <entry>
     <title>The Right to Data Portability in Health Trackers</title>
     <link href="https://arjuns.blog/posts/data-portability/"/>
     <id>https://arjuns.blog/posts/data-portability/</id>
     <updated>2026-06-12T00:00:00Z</updated>
-    <summary>Pretty obvious if you think about it.</summary>
+    <summary>Give me any data you have about me, pretty please.</summary>
   </entry>
   <entry>
     <title>Just Say No? (to Satan's Apple)</title>
@@ -40,6 +47,6 @@
     <link href="https://arjuns.blog/posts/linux-desktop/"/>
     <id>https://arjuns.blog/posts/linux-desktop/</id>
     <updated>2025-08-31T00:00:00Z</updated>
-    <summary>Reflecting on my primary computing platform this summer</summary>
+    <summary>Reflections on my primary computing platform this summer.</summary>
   </entry>
 </feed>

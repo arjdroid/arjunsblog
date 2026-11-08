@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pure MacOS via Determinate Nix · Arjun's Blog</title>
+    <meta name="description" content="Achieving Determinism of State in my Apple Computer">
+    <meta name="authors" content="Arjun Singh">
+    <style>
+      /* Alignment */
+      mtable.right-align mtd,
+      mtable mtd.right-align,
+      mtable.left-align mtd.right-align,
+      mtable.aligned mtd:nth-child(odd) {
+        justify-items: end;
+        text-align: right;
+      }
+      mtable.cases mtd,
+      mtable.left-align mtd,
+      mtable mtd.left-align,
+      mtable.aligned mtd:nth-child(even),
+      math:is(:not([display])) > mtable.multiline-equation mtd {
+        justify-items: start;
+        text-align: left;
+      }
+      mtable.cases mtd,
+      mtable.aligned mtd,
+      mtable mtd.flushed,
+      mtable mtd.left-flush {
+        padding-left: 0;
+      }
+      mtable.cases mtd,
+      mtable.aligned mtd,
+      mtable mtd.flushed,
+      mtable mtd.right-flush {
+        padding-right: 0;
+      }
+      
+      /* Tables */
+      mtable {
+        math-style: inherit;
+      }
+      mtd {
+        math-depth: auto-add;
+        math-style: compact;
+        math-shift: compact;
+      }
+      
+      /* Equations */
+      mtable.multiline-equation mtd {
+        math-depth: inherit;
+        math-style: inherit;
+        math-shift: inherit;
+        padding: 0;
+      }
+      math > mtable.multiline-equation mtr:not(:last-child) mtd {
+        padding-bottom: 0.5em;
+      }
+      
+      /* Fractions */
+      mfrac {
+        padding-inline: 0;
+        margin-inline: 0.1em;
+      }
+      
+      /* Accents */
+      mover[accent="true" i] > :first-child {
+        font-feature-settings: "dtls";
+      }
+      mover.dotted[accent="true" i] > :first-child {
+        font-feature-settings: "dtls" 0;
+      }
+      
+      /* Other rules for scriptlevel, displaystyle and math-shift */
+      munder > :nth-child(2),
+      munderover > :nth-child(2) {
+        math-shift: compact
+      }
+      munder[accentunder="true" i] > :not(:first-child),
+      mover[accent="true" i] > :not(:first-child) {
+        math-depth: inherit;
+        math-style: inherit;
+        math-shift: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../favicon.svg">
+    <link rel="alternate" type="application/atom+xml" title="Arjun's Blog feed" href="../../feed.xml">
+    <div class="documentwrapper">
+      <div class="bodycontent">
+        <div class="related top">
+          <ul>
+            <li class="older"><a href="../../posts/typst-sitegen/">Static Site Generation with Typst →</a></li>
+          </ul>
+        </div>
+        <main>
+          <article class="post">
+            <header class="post-header">
+              <h1>Pure MacOS via Determinate Nix</h1>
+              <p class="post-meta"><time datetime="2026-10-16">October 16, 2026</time> <span class="tags">#nix #life</span></p>
+            </header>
+            <p>Somehow incorporate my unexpected enjoyment of Apple Music’s Jazz Spatial Audio playlist.</p>
+          </article>
+        </main>
+        <div class="related bottom">
+          <ul>
+            <li class="older"><a href="../../posts/typst-sitegen/">Static Site Generation with Typst →</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <h1 class="logo"><a href="../../">Arjun's Blog</a></h1>
+      <p class="blurb">Miscellaneous Musings</p>
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="../../">Home</a></li>
+        <li><a href="../../posts/" class="current">Posts</a></li>
+        <li><a href="../../contact/">Contact</a></li>
+      </ul>
+      <h3>Recent posts</h3>
+      <ul class="recent">
+        <li><span class="current">Pure MacOS via Determinate Nix</span></li>
+        <li><a href="../../posts/typst-sitegen/">Static Site Generation with Typst</a></li>
+        <li><a href="../../posts/data-portability/">The Right to Data Portability in Health Trackers</a></li>
+        <li><a href="../../posts/satan-apple/">Just Say No? (to Satan's Apple)</a></li>
+        <li><a href="../../posts/greedy-tragedy/">Greedy Algorithms and Diachronic Tragedy</a></li>
+      </ul>
+    </div>
+    <div class="pagefooter">
+      <div class="blogring"><a href="https://kytrinh.me/gathering/arjunsblog/prev">← prev</a> <a href="https://kytrinh.me/gathering/">gathering</a> <a href="https://kytrinh.me/gathering/arjunsblog/next">next →</a></div>
+      <div class="footer">© 2026 Arjun Singh · <a href="../../feed.xml">Feed</a> · built with <a href="https://typst.app">Typst</a></div>
+    </div>
+  </body>
+</html>
