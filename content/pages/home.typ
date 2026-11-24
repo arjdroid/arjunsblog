@@ -11,7 +11,7 @@
   //#html.h1(site.title)
   //#html.h1("Home")
   //#html.p(class: "blurb", site.tagline)
-  #html.h1("Hi, I'm Arjun")
+  #html.h1("Hi, I'm Arjun (अर्जुन)")
   //#html.h2("Recent posts")
   //#html.ul(class: "post-list", recent.map(p => post-card(prefix, p)).join())
   //#html.p(html.a(href: url(prefix, "posts/"), class: "more")[All posts →])

@@ -27,7 +27,7 @@ Thus, it seems like the only way to mitigate this vapid talk is to have people t
 
 This also seems related to the archetype of the high power executive with a bunch of yes-people that continually affirm this _(maybe unintentional?)_ behaviour.
 
-I don't such diversions happen as often when talking about less, for lack of a better word, \'big\' stuff (big in culture, big in peoples' heads, big in it of itself, etc.) because there is less ego involved. There can be plenty of interesting human interaction to be had when talking about bicycles or coffee or jazz.
+I don't think such diversions happen as often when talking about less, for lack of a better word, \'big\' stuff (big in culture, big in peoples' heads, big in it of itself, etc.) because there is less ego involved. There can be plenty of interesting human interaction to be had when talking about bicycles or coffee or jazz.
 
 I'm sure there are countless performative individuals that attach their identities to such topics, but more often than not it is just excited, knowledgeable people sharing their experiences, resulting in joy and new insights.
 
