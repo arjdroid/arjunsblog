@@ -6,14 +6,7 @@
   <link href="https://arjuns.blog/"/>
   <id>https://arjuns.blog/</id>
   <author><name>Arjun Singh</name></author>
-  <updated>2026-11-05T00:00:00Z</updated>
-  <entry>
-    <title>Vagueries and Auguries</title>
-    <link href="https://arjuns.blog/posts/vague-ppl/"/>
-    <id>https://arjuns.blog/posts/vague-ppl/</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>Performative question askers take up precious time and space.</summary>
-  </entry>
+  <updated>2026-09-21T00:00:00Z</updated>
   <entry>
     <title>Static Site Generation with Typst</title>
     <link href="https://arjuns.blog/posts/typst-sitegen/"/>
