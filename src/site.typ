@@ -55,11 +55,7 @@
   )
 }
 
-// ── Generated files ─────────────────────────────────────────────────────────
-
-// The favicon is a Typst document too: the math font's calligraphic A on a
-// white rounded square, so it needs no font at render time and no image editor
-// to change. Adjust the glyph, colours or radius here.
+// The favicon is the math font's calligraphic A on a white rounded square
 #let favicon-art = {
   set page(width: 32pt, height: 32pt, margin: 0pt, fill: none)
   set text(fill: black, size: 22pt)

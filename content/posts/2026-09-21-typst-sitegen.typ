@@ -21,6 +21,7 @@ To put a long story short, I messed around with Claude Code and got a pretty nea
 Overall, I found it much nicer than Hugo as its a lot more flexible and I know its ins and outs. The styling is taken care of by one giant CSS file, but other than that its all Typst -- including the templates which do include some `html.elem`'s here and there but I try to avoid it if I can.
 
 I really like that the programming and the typesetting and the content are all in the same language. I even made the favicon in Typst! Here's an excerpt from `src/site.typ` to give you an idea of the expressive power and flexibility of Typst:
+
 ```typc
 #emit("contact/index.html", title: "Contact", current: "contact")[
   #html.h1("Contact")
@@ -36,11 +37,7 @@ I really like that the programming and the typesetting and the content are all i
   )
 }
 
-// ── Generated files ─────────────────────────────────────────────────────────
-
-// The favicon is a Typst document too: the math font's calligraphic A on a
-// white rounded square, so it needs no font at render time and no image editor
-// to change. Adjust the glyph, colours or radius here.
+// The favicon is the math font's calligraphic A on a white rounded square
 #let favicon-art = {
   set page(width: 32pt, height: 32pt, margin: 0pt, fill: none)
   set text(fill: black, size: 22pt)
@@ -56,8 +53,9 @@ I really like that the programming and the typesetting and the content are all i
 #document("favicon.svg", favicon-art)
 ```
 
+It can fetch all the posts and load them into the generation pipeline to be able to access data like the title and display links to all of them on the same page!
+
 One caveat: Typst warns against using the HTML capabilities for production since they're still moving fast and breaking things. I look forward to seeing how this goes.
 
-TODO: add a more detailed breakdown of architectural decisions, though this is highly volatile and subject to change so I'm refraining for now.
 ]
 )
